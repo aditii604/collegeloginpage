@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Admissions & Courses</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-image: url("https://static.vecteezy.com/system/resources/previews/007/736/664/non_2x/abstract-3d-elegant-golden-wave-curved-lines-and-light-sparking-on-gold-background-luxury-style-vector.jpg");
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            
+        }
+        header {
+            background-color: rgba(120, 14, 6, 0.9); 
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+        }
+        nav {
+            background-color: rgba(0, 80, 158, 0.9); 
+            color: white;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .container {
+            max-width: 1200px;
+            margin: auto;
+            padding: 20px;
+            background-color: rgba(0, 0, 0, 0.6); /* Semi-transparent content background */
+            border-radius: 10px;
+        }
+        .content {
+            margin-bottom: 30px;
+        }
+        .content h2 {
+            color: #ffd700;
+        }
+        .content p, .content li {
+            font-size: 1.1em;
+            line-height: 1.6;
+            color: white;
+        }
+        .courses ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        .courses li {
+            background-color: rgba(192, 192, 192, 0.7);
+            margin: 10px 0;
+            padding: 15px;
+            border-radius: 5px;
+        }
+        .courses li:hover {
+            background-color: rgba(255, 255, 255, 0.9);
+        }
+        footer {
+            background-color: rgba(120, 14, 6, 0.9);
+            color: white;
+            text-align: center;
+            padding: 15px;
+            margin-top: 20px;
+        }
+        @media (max-width: 768px) {
+            body {
+                background-attachment: scroll;
+            }
+            nav a {
+                display: block;
+                margin: 10px 0;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Welcome to Stanford University</h1>
+        <p>Excellence in Education</p>
+    </header>
+
+    <nav>
+        <a href="#admissions">Admissions</a>
+        <a href="#courses">Courses</a>
+        <a href="#contact">Contact Us</a>
+    </nav>
+
+    <div class="container">
+        <!-- Admissions Section -->
+        <div class="content" id="admissions">
+            <h2>Admissions</h2>
+            <p>At Stanford University, we offer a wide variety of programs to help you achieve your academic and professional goals. Our admission process is simple and straightforward, and we welcome students from around the world to join our vibrant academic community.</p>
+            <p>To apply, please follow these steps:</p>
+            <ul>
+                <li>Submit your online application form.</li>
+                <li>Upload your academic transcripts.</li>
+                <li>Provide letters of recommendation (optional).</li>
+                <li>Pay the application fee.</li>
+            </ul>
+            <p>For more details on the admission process,<a href="about.html">click here</a>.</p>
+        </div>
+
+        <!-- Courses Section -->
+        <div class="content courses" id="courses">
+            <h2>Available Courses</h2>
+            <ul>
+                <li>
+                    <strong>Computer Science (B.Sc.)</strong>
+                    <p>This program covers topics like programming, data structures, algorithms, artificial intelligence, and more.</p>
+                </li>
+                <li>
+                    <strong>Business Administration (MBA)</strong>
+                    <p>This program prepares students for leadership roles in various industries, focusing on management, finance, marketing, and entrepreneurship.</p>
+                </li>
+                <li>
+                    <strong>Mechanical Engineering (B.Tech)</strong>
+                    <p>Learn the fundamentals of mechanical design, thermodynamics, materials science, and engineering mechanics.</p>
+                </li>
+                <li>
+                    <strong>Psychology (B.A.)</strong>
+                    <p>This course explores human behavior, mental processes, cognitive science, and various psychological theories and practices.</p>
+                </li>
+                <li>
+                    <strong>Data Science (M.Sc.)</strong>
+                    <p>Specialize in big data, machine learning, and statistical methods to solve complex data challenges in the modern world.</p>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <footer>
+        <p>Contact Us: admission@stanforduniversity.edu | +91 9356102011</p>
+        <p>© 2024 Stanford University. All rights reserved. 
+  - Manager Shruti Tayade</p>
+    </footer>
+
+</body>
+</html>
